@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 1</title>
+</head>
+<style>
+    body{
+        background-color: rgb(19, 13, 13);
+        justify-content: center;
+        justify-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    p{
+       color: white;
+       margin-top: 100px;
+       font-size: larger;
+    }
+    button{
+        background-image: linear-gradient(to right, rgb(253, 2, 43) , blue);
+        padding: 15px 30px;
+        border-radius: 50px;
+        font-size: 18px;
+        color: white;
+        border: 1px solid rgb(207, 207, 207);
+        cursor: pointer;
+    }
+</style>
+<body>
+    <p id="text">This is the first exercise.</p>
+    <button id="btn">Change text</button>
+
+
+    <script>
+        document.getElementById('btn').onclick = function() {
+            document.getElementById('text').innerText = 'The text has been change! ';
+        };
+    </script>
+</body>
+</html>

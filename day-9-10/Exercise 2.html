@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change style example</title>
+</head>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        margin-top: 50px;
+    }
+    #styleText{
+        width: 400px;
+        margin: auto;
+        padding: 20px;
+        transition: all 0.3s ease;
+    }
+    #btn{
+        padding: 15px 25px;
+        font-size: 16px;
+        cursor: pointer;
+        margin-top: 10px;
+        border-radius: 15px;
+        border: 1px solid white;
+        color: #fff;
+        background: linear-gradient(to top left, #004de6,  #b3ccff);
+    }
+</style>
+<body>
+    <div id="styleText">This is some text that will change style.</div>
+    <button id="btn">Change Style</button>
+
+
+    <script>
+        document.getElementById('btn').onclick = function() {
+            const styleText = document.getElementById('styleText');
+            styleText.style.backgroundColor = 'lightblue';
+            styleText.style.color = 'darkblue';
+            styleText.style.fontWeight = 'bold';
+        };
+
+    </script>
+</body>
+</html>
