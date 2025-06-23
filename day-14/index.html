@@ -46,6 +46,11 @@
                         duration-200 lg:text-base">Home</a>
                     </li>
                     <li class="lg:inline-block mx-3">
+                        <a href="#features" class="text-lg font-medium 
+                        text-slate-700 hover:text-blue-600
+                        duration-200 lg:text-base">Features</a>
+                    </li>
+                    <li class="lg:inline-block mx-3">
                         <a href="#dom" class="text-lg font-medium 
                         text-slate-700 hover:text-blue-600
                         duration-200 lg:text-base">Combine DOM</a>
@@ -56,14 +61,24 @@
                         duration-200 lg:text-base">Events</a>
                     </li>
                     <li class="lg:inline-block mx-3">
+                        <a href="#protfolio" class="text-lg font-medium 
+                        text-slate-700 hover:text-blue-600
+                        duration-200 lg:text-base">Protfolio</a>
+                    </li>
+                    <li class="lg:inline-block mx-3">
                         <a href="#storage" class="text-lg font-medium 
                         text-slate-700 hover:text-blue-600
                         duration-200 lg:text-base">Storage</a>
                     </li>
                     <li class="lg:inline-block mx-3">
+                        <a href="#blog" class="text-lg font-medium 
+                        text-slate-700 hover:text-blue-600
+                        duration-200 lg:text-base">Blog</a>
+                    </li>
+                    <li class="lg:inline-block mx-3">
                         <a href="#form" class="text-lg font-medium 
                         text-slate-700 hover:text-blue-600
-                        duration-200 lg:text-base">Form</a>
+                        duration-200 lg:text-base">Contact Form</a>
                     </li>
                 </nav>
             </div>
@@ -148,17 +163,71 @@
     <!-- ===== End hero ==== -->
 
 
-        <!-- ===== Combine DOM ==== -->
+    <!-- ===== features ==== -->
+
+
+    <section id="features" class="pb-16">
+        <div class="mx-auto max-w-7xl px-8 md:px-6">
+            <!-- heading text -->
+             <div class="mb-5 sm:mb-10">
+                <span class="font-medium text-blue-500">Our Features</span>
+                <h1 class="text-2xl font-bold text-slate-700 sm:text-3xl">Provide Our Features</h1>
+             </div>
+             <!-- features img -->
+              <div class="md:flex md:justify-between md:gap-6 xl:gap-10">
+                 <div class="mb-5 max-h-[600px] overflow-hidden rounded-lg md:mb-0 md:w-5/12">
+                     <img src="images/features/features.png" alt="features" class="h-full scale-125 sm:w-full sm:object-cover">
+                 </div>
+                 <div class="md:w-7/12">
+                     <div class="mb-16 flex flex-col">
+                         <p class="mb-3 text-slate-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Consequuntur error eligendi natus quisquam autem dolores?</p>
+
+                         <p class="mb-10 text-slate-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, 
+                            libero numquam omnis ab quaerat perspiciatis perferendis laboriosam 
+                            natus ad corrupti eveniet similique maiores saepe nemo.</p>
+                     
+                         <button class="w-full rounded-md bg-blue-500 px-8 py-2.5 font-semibold text-white shadow-blue-500/20 hover:bg-blue-600 duration-200 sm:w-max">Get Started</button>
+                      </div>
+                      <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                         <div class="flex flex-col items-center justify-center rounded-xl bg-white px-4 py-8 shadow-lg">
+                             <img src="images/features/icon (1).png" alt="" class="mb-3 w-16">
+                             <h3 class="text-lg font-bold text-slate-600">Web Design</h3>
+                             <a href="#" class="text-sm text-blue-500">Learn more</a>
+                         </div>
+                         <div class="flex flex-col items-center justify-center rounded-xl bg-white px-4 py-8 shadow-lg">
+                             <img src="images/features/icon (2).png" alt="" class="mb-3 w-16">
+                             <h3 class="text-lg font-bold text-slate-600">Automation</h3>
+                             <a href="#" class="text-sm text-blue-500">Learn more</a>
+                         </div>
+                         <div class="flex flex-col items-center justify-center rounded-xl bg-white px-4 py-8 shadow-lg">
+                             <img src="images/features/icon (3).png" alt="" class="mb-3 w-16">
+                             <h3 class="text-lg font-bold text-slate-600">Infographics</h3>
+                             <a href="#" class="text-sm text-blue-500">Learn more</a>
+                         </div>
+                      </div>
+                 </div>
+              </div>
+        </div>
+    </section>
+
+
+    <!-- ===== End features ==== -->
+
+
+
+    <!-- ===== Combine DOM ==== -->
 
      <section id="dom" class="py-16 bg-slate-50">
          <div class="mx-auto max-w-7xl px-8 md:px-6">
              <div class="md:flex md:justify-between md:gap-6">
                  <div class="md:w-6/12">
                      <!-- heading text -->
-                     <div class="mb-5 sm:mb-10">
-                         <h1 class="text-2xl font-bold text-slate-700 sm:text-3xl">Introducing you</h1>
+                     <div class="mb-2 sm:mb-10">
+                         <span class="font-medium text-blue-500">About Us</span>
+                         <h1 class="text-2xl mb-3 font-bold text-slate-700 sm:text-3xl">Introducing you</h1>
+                         <p class=" text-slate-500">Please introduce yourself</p>
                      </div>
-                     <p class=" text-slate-500 mb-6">Please introduce yourself</p>
                      <input type="text" id="intro" class="w-full md:w-[400px] outline-none px-4 py-2 my-2 border border-blue-500 rounded-lg">
                      <h2 id="agin" class="text-slate-800 text-center md:text-left"></h2>
                      <button type="submit" class="w-full rounded-md bg-blue-500 my-5 px-8 py-2.5 font-semibold text-white shadow-blue-500/20 hover:bg-blue-600 duration-200 sm:w-max">Submit</button>
@@ -175,13 +244,18 @@
     <!-- ===== End Combine DOM ==== -->
 
 
-        <!-- ===== Events ==== -->
+    <!-- ===== Events ==== -->
 
      <section id="events" class="py-16">
          <div class="max-auto max-w-7xl px-8 md:px-6">
              <!-- heading text -->
              <div class="mb-5 sm:mb-10 text-center">
-                 <h1 class="text-2xl font-bold text-slate-700 sm:text-3xl">Events</h1>
+                <span class="font-medium text-blue-500">Events</span>
+                 <h1 class="text-2xl font-bold text-slate-700 sm:text-3xl">Provide Awesome Services</h1>
+                 <p class="max-auto mt-2 text-slate-500">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Repudiandae excepturi quisquam labore, necessitatibus atque officiis!
+                 </p>
              </div>
 
              <!-- box wrapper -->
@@ -215,13 +289,114 @@
     <!-- ===== End Events ==== -->
 
 
-        <!-- ===== Storage ==== -->
+    <!-- ===== protfolio ==== -->
+
+    <section id="protfolio" class="py-16">
+         <div class="mx-auto max-w-7xl px-8 md:px-6">
+             <!-- heading text -->
+             <div class="mb-5 sm:mb-10 text-center">
+                 <span class="font-medium text-blue-500">Our Portfolio</span>
+                 <h1 class="text-2xl font-bold text-slate-700 sm:text-3xl">Our Recent Works</h1>
+                 <p class="max-auto mt-2 text-slate-500">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Repudiandae excepturi quisquam labore, necessitatibus atque officiis!
+                 </p>
+             </div>
+             <!-- wrapper -->
+              <div class="flex flex-col gap-5">
+                  <!-- col 1 -->
+                   <div class="grid gap-5 sm:grid-cols-2 md:grid-cols-4">
+                        <div class="group relative h-40 overflow-hidden rounded-lg lg:h-52">
+                            <img src="images/portfolio/p-1.png" alt="portfolio img" 
+                            class="absolute h-full w-full object-cover duration-200 group-hover:scale-125">
+                            <div class="absolute -bottom-60 flex w-full cursor-pointer items-center justify-between bg-gradient-to-t from-slate-800 px-3 pb-4 pt-10 duration-200 group-hover:-bottom-0">
+                                <p class="text-sm font-semibold text-white">Type Your portfolio details <span class="text-sm text-slate-300  block">12 August 2025</span> </p>
+                                <ion-icon name="heart" class="rounded-full bg-white p-1.5 text-lg text-blue-500"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="group relative h-40 overflow-hidden rounded-lg lg:h-52">
+                            <img src="images/portfolio/p-2.png" alt="portfolio img" 
+                            class="absolute w-full h-full object-cover duration-200 group-hover:scale-125">
+                            <div class="absolute -bottom-60 flex w-full cursor-pointer items-center justify-between bg-gradient-to-t from-slate-800 px-3 pb-4 pt-10 duration-200 group-hover:-bottom-0">
+                                <p class="text-sm font-semibold text-white">Type Your portfolio details <span class="text-sm text-slate-300  block">12 August 2025</span> </p>
+                                <ion-icon name="heart" class="rounded-full bg-white p-1.5 text-lg text-blue-500"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="group relative h-40 overflow-hidden rounded-lg lg:h-52 sm:col-span-2">
+                            <img src="images/portfolio/p-3.png" alt="portfolio img" 
+                            class="absolute w-full h-full object-cover duration-200 group-hover:scale-125">
+                            <div class="absolute -bottom-60 flex w-full cursor-pointer items-center justify-between bg-gradient-to-t from-slate-800 px-3 pb-4 pt-10 duration-200 group-hover:-bottom-0">
+                                <p class="text-sm font-semibold text-white">Type Your portfolio details <span class="text-sm text-slate-300  block">12 August 2025</span> </p>
+                                <ion-icon name="heart" class="rounded-full bg-white p-1.5 text-lg text-blue-500"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end col 1 -->
+
+                  <!-- col 2 -->
+                   <div class="grid gap-5 sm:grid-cols-2 md:grid-cols-3">
+                        <div class="group relative h-40 overflow-hidden rounded-lg lg:h-52 md:col-span-2">
+                            <img src="images/portfolio/p-4.png" alt="portfolio img" 
+                            class="absolute h-full w-full object-cover duration-200 group-hover:scale-125">
+                            <div class="absolute -bottom-60 flex w-full cursor-pointer items-center justify-between bg-gradient-to-t from-slate-800 px-3 pb-4 pt-10 duration-200 group-hover:-bottom-0">
+                                <p class="text-sm font-semibold text-white">Type Your portfolio details <span class="text-sm text-slate-300  block">12 August 2025</span> </p>
+                                <ion-icon name="heart" class="rounded-full bg-white p-1.5 text-lg text-blue-500"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="group relative h-40 overflow-hidden rounded-lg lg:h-52">
+                            <img src="images/portfolio/p-5.png" alt="portfolio img" 
+                            class="absolute w-full h-full object-cover duration-200 group-hover:scale-125">
+                            <div class="absolute -bottom-60 flex w-full cursor-pointer items-center justify-between bg-gradient-to-t from-slate-800 px-3 pb-4 pt-10 duration-200 group-hover:-bottom-0">
+                                <p class="text-sm font-semibold text-white">Type Your portfolio details <span class="text-sm text-slate-300  block">12 August 2025</span> </p>
+                                <ion-icon name="heart" class="rounded-full bg-white p-1.5 text-lg text-blue-500"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end col 2 -->
+
+                  <!-- col 3 -->
+                   <div class="grid gap-5 sm:grid-cols-2 md:grid-cols-4">
+                        <div class="group relative h-40 overflow-hidden rounded-lg lg:h-52">
+                            <img src="images/portfolio/p-6.png" alt="portfolio img" 
+                            class="absolute h-full w-full object-cover duration-200 group-hover:scale-125">
+                            <div class="absolute -bottom-60 flex w-full cursor-pointer items-center justify-between bg-gradient-to-t from-slate-800 px-3 pb-4 pt-10 duration-200 group-hover:-bottom-0">
+                                <p class="text-sm font-semibold text-white">Type Your portfolio details <span class="text-sm text-slate-300  block">12 August 2025</span> </p>
+                                <ion-icon name="heart" class="rounded-full bg-white p-1.5 text-lg text-blue-500"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="group relative h-40 overflow-hidden rounded-lg lg:h-52">
+                            <img src="images/portfolio/p-7.png" alt="portfolio img" 
+                            class="absolute w-full h-full object-cover duration-200 group-hover:scale-125">
+                            <div class="absolute -bottom-60 flex w-full cursor-pointer items-center justify-between bg-gradient-to-t from-slate-800 px-3 pb-4 pt-10 duration-200 group-hover:-bottom-0">
+                                <p class="text-sm font-semibold text-white">Type Your portfolio details <span class="text-sm text-slate-300  block">12 August 2025</span> </p>
+                                <ion-icon name="heart" class="rounded-full bg-white p-1.5 text-lg text-blue-500"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="group relative h-40 overflow-hidden rounded-lg lg:h-52 sm:col-span-2">
+                            <img src="images/portfolio/p-8.png" alt="portfolio img" 
+                            class="absolute w-full h-full object-cover duration-200 group-hover:scale-125">
+                            <div class="absolute -bottom-60 flex w-full cursor-pointer items-center justify-between bg-gradient-to-t from-slate-800 px-3 pb-4 pt-10 duration-200 group-hover:-bottom-0">
+                                <p class="text-sm font-semibold text-white">Type Your portfolio details <span class="text-sm text-slate-300  block">12 August 2025</span> </p>
+                                <ion-icon name="heart" class="rounded-full bg-white p-1.5 text-lg text-blue-500"></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end col 3 -->
+              </div>
+         </div>
+    </section>
+
+    <!-- ===== End protfolio ==== -->
+
+
+    <!-- ===== Storage ==== -->
 
     <section id="storage" class="py-16 bg-slate-50">
          <div class="mx-auto max-w-7xl px-8 md:px-6">
               <!-- heading text -->
              <div class="mb-5 sm:mb-10">
-                 <h1 class="text-4xl font-bold text-slate-700 sm:text-3xl">Storage</h1>
+                  <span class="font-medium text-blue-500">Storage</span>
+                 <h1 class="text-2xl font-bold text-slate-700 sm:text-3xl">Frequently Asked Questions</h1>
                  <!-- wrapper -->
                   <div class="md:flex md:justify-center md:gap-6">
                       <div class="mb-8 flex justify-center md:mb-0 md:w-5/12">
@@ -245,7 +420,85 @@
 
     <!-- ===== End Storage ==== -->
 
-        <!-- ===== Form ==== -->
+
+    <!-- ===== blog ==== -->
+
+    <section id="blog" class="py-16">
+        <div class="mx-auto max-w-7xl px-8 md:px-6">
+            <div class="mb-5 sm:mb-10">
+                <span class="font-medium text-blue-500">Our Blog</span>
+                <h1 class="text-2xl font-bold text-slate-700 sm:text-3xl">From Our Latest Blog</h1>
+            </div>
+            <!-- wrapper -->
+             <div class="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:gap-10">
+                <!-- single-blog -->
+                 <div class="w-full duration-200 hover:scale-95">
+                    <div class="max-h-52 w-full overflow-hidden rounded-t-xl">
+                        <img src="images/blog/blog-1.png" alt="blog img" class="w-full">
+                    </div>
+                    <div class="rounded-b-xl px-5 pb-5 pt-3 shadow-md shadow-blue-500/10">
+                        <div class="">
+                            <a href="#" class="mr-2 rounded-md bg-blue-50 px-3 py-1 text-sm text-slate-600">Services</a>
+                            <a href="#" class="block pt-4 font-medium capitalize text-slate-800 hover:text-blue-500">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+                        </div>
+                        <hr class="my-4 border-slate-100">
+                        <div class="flex">
+                            <img src="images/blog/user-1.png" alt="user img"
+                            class="mr-3 h-10 w-10 rounded-full object-cover">
+                            <p class="text-sm font-semibold capitalize text-slate-600">Zahidul Hossain 
+                            <span class="block text-xs text-slate-400">web designer</span></p>
+                        </div>
+                    </div>
+                 </div>
+                 <!-- single-blog -->
+                 <div class="w-full duration-200 hover:scale-95">
+                    <div class="max-h-52 w-full overflow-hidden rounded-t-xl">
+                        <img src="images/blog/blog-2.png" alt="blog img" class="w-full">
+                    </div>
+                    <div class="rounded-b-xl px-5 pb-5 pt-3 shadow-md shadow-blue-500/10">
+                        <div class="">
+                            <a href="#" class="mr-2 rounded-md bg-blue-50 px-3 py-1 text-sm text-slate-600">Services</a>
+                            <a href="#" class="mr-2 rounded-md bg-blue-50 px-3 py-1 text-sm text-slate-600">Design</a>
+                            <a href="#" class="block pt-4 font-medium capitalize text-slate-800 hover:text-blue-500">Dolore Placeat Ullam Architecto Deleniti Maxime Laborum</a>
+                        </div>
+                        <hr class="my-4 border-slate-100">
+                        <div class="flex">
+                            <img src="images/blog/user-2.png" alt="user img"
+                            class="mr-3 h-10 w-10 rounded-full object-cover">
+                            <p class="text-sm font-semibold capitalize text-slate-600">Zahidul Hossain 
+                            <span class="block text-xs text-slate-400">web designer</span></p>
+                        </div>
+                    </div>
+                 </div>
+                 <!-- single-blog -->
+                 <div class="w-full duration-200 hover:scale-95">
+                    <div class="max-h-52 w-full overflow-hidden rounded-t-xl">
+                        <img src="images/blog/blog-3.png" alt="blog img" class="w-full">
+                    </div>
+                    <div class="rounded-b-xl px-5 pb-5 pt-3 shadow-md shadow-blue-500/10">
+                        <div class="">
+                            <a href="#" class="mr-2 rounded-md bg-blue-50 px-3 py-1 text-sm text-slate-600">Website</a>
+                            <a href="#" class="block pt-4 font-medium capitalize text-slate-800 hover:text-blue-500">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+                        </div>
+                        <hr class="my-4 border-slate-100">
+                        <div class="flex">
+                            <img src="images/blog/user-3.png" alt="user img"
+                            class="mr-3 h-10 w-10 rounded-full object-cover">
+                            <p class="text-sm font-semibold capitalize text-slate-600">Zahidul Hossain 
+                            <span class="block text-xs text-slate-400">web designer</span></p>
+                        </div>
+                    </div>
+                 </div>
+
+             </div>
+        </div>
+    </section>
+
+    <!-- ===== End blog ==== -->
+
+
+
+    <!-- ===== Contact Form ==== -->
 
     <section id="form" class="relative overflow-hidden py-16">
         <img src="images/effect.png" alt="effect" class="absolute bottom-[400px -z-10] w-full opacity-[0.2]">
@@ -255,9 +508,16 @@
                 <!-- left contact -->
                 <div class="w-full px-4 md:w-1/2 xl:w-6/12">
                     <div class="mb-12 max-w-[570px] lg:mb-0">
+                        <span class="font-medium text-blue-500">Contact Us</span>
                         <h1 class="mb-3 text-2xl font-bold text-slate-700 sm:text-3xl">
-                            Contact Form
+                            GET IN TOUCH WITH US
                         </h1>
+                        <p class="text-slate-500 mb-8">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Culpa animi nam, pariatur molestias aperiam ducimus eaque?
+                             Doloremque earum consequuntur laudantium!
+                        </p>
+
 
                         <!-- Address -->
                         <div class="mb-8 flex w-full max-w-[420px] item-center rounded-lg bg-white p-4 shadow-md shadow-blue-500/10">
@@ -326,9 +586,11 @@
             
     </section>
 
-    <!-- ===== End Form ==== -->
+    <!-- ===== End Contact Form ==== -->
 
-        <!-- ===== footer ==== -->
+
+
+    <!-- ===== footer ==== -->
 
      <footer class="bg-slate-50/80 pt-16">
          <div class="mx-auto max-w-7xl px-8 md:px-6">
@@ -456,6 +718,9 @@
 
     <!-- ===== End footer ==== -->
 
+
+
+    <!-- Link Java Script -->
     <script src="script.js"></script>
 </body>
 </html>
